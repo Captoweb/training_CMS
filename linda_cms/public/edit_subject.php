@@ -95,9 +95,12 @@ if (isset($_POST['submit'])) {
 		  </p>
 		  <input type="submit" name="submit" value="Edit Subject" />
 		</form>
-		<br />
+		<br>
 		<a href="manage_content.php">Cancel</a>
-	</div>
+		&nbsp;
+		&nbsp;
+		<a href="delete_subject.php?subject=<?php echo $current_subject["id"]; ?>" onclick="return confirm('Are you sure?');">Delete subject</a> 
+	</div> 
 </div>
-
+ 
 <?php include("../includes/layouts/footer.php"); ?>
