@@ -6,6 +6,8 @@
 
 <div id="main">
   <div id="navigation">
+   <br>
+    <a href="admin.php">&laquo; Main menu</a><br> 
 		<?php echo navigation($current_subject, $current_page); ?>
   </div>
   <div id="page">
