@@ -1,3 +1,4 @@
+<?php require_once("../includes/functions.php"); ?>
 <?php include_once("../includes/layouts/header.php"); ?>
    <div id="main">
    <div id="navigation">
@@ -13,6 +14,5 @@
        </ul>
    </div>
     </div>
-   <div id="footer">Copyright 20xx, Widget Corp</div>
-</body>
-</html>
+   
+  <?php include("../includes/layouts/footer.php"); ?>
